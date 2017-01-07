@@ -1,0 +1,53 @@
+/*
+    Template
+ */
+html, body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/**
+ * Footer
+ */
+
+.footer{
+    width: 100%;
+    background-color: black;
+    color:white;
+    padding: 10px;
+    z-index: 99999999;
+    position: fixed;
+    &-section{
+        text-align: center;
+        span{
+            display: block;
+            font-weight: bold;
+        }
+    }
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	border-radius: 3px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+    font-weight: normal;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+.smalltext{
+	font-size: 12px;
+}
